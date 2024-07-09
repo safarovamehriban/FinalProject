@@ -1,0 +1,404 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Theratio</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="~/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="~/css/flaticon.css" />
+    <link rel="stylesheet" href="~/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="~/css/owl.theme.css" />
+    <link rel="stylesheet" href="~/css/magnific-popup.css" />
+    <link rel="stylesheet" href="~/css/lightgallery.css" />
+    <link rel="stylesheet" href="~/css/woocommerce.css" />
+    <link rel="stylesheet" href="~/css/royal-preload.css" />
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- REVOLUTION SLIDER CSS -->
+    <link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/settings.css">
+    <!-- REVOLUTION NAVIGATION STYLE -->
+    <link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/navigation.css">
+</head>
+
+<body>
+    <div id="royal_preloader"></div>
+    <div id="page" class="site">
+        <header id="site-header" class="site-header header-transparent">
+            <!-- Main Header start -->
+            <div class="octf-main-header is-fixed">
+                <div class="octf-area-wrap">
+                    <div class="container-fluid octf-mainbar-container">
+                        <div class="octf-mainbar">
+                            <div class="octf-mainbar-row octf-row">
+
+                                <div class="octf-col logo-col no-padding">
+                                    <div id="site-logo" class="site-logo">
+                                        <a asp-action="Index" asp-controller="Home">
+                                            <img src="~/images/logo.svg" alt="Theratio" class="">
+                                        </a>
+                                    </div>
+                                </div>
+
+
+                                <div class="octf-col menu-col no-padding">
+                                    <nav id="site-navigation" class="main-navigation">
+                                        <ul class="menu">
+                                            <li>
+                                                <a asp-action="Index" asp-controller="Home">Home</a>
+                                            </li>
+                                            <li class="menu-item-has-children">
+                                                <a href="#">About Us</a>
+                                                <ul class="sub-menu">
+                                                    <li><a asp-action="Index" asp-controller="About">About Us</a></li>
+
+
+                                                    <ul class="sub-menu">
+
+                                                        <li><a href="checkout-page.html">Checkout Page</a></li>
+                                                        <li><a href="cart-page.html">Cart Page</a></li>
+                                                    </ul>
+                                            </li>
+                                        </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="#">Services</a>
+                                            <ul class="sub-menu">
+                                                <li><a asp-action="Index" asp-controller="Design">Design & Planning</a></li>
+                                                <li><a asp-action="Index" asp-controller="Furniture">Furniture & Decor</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="menu-item-has-children">
+                                            <a href="#">Blog</a>
+                                            <ul class="sub-menu">
+                                                <li><a asp-action="Index" asp-controller="Blog">Blog</a></li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a asp-action="Index" asp-controller="Contact">Contacts</a>
+                                        </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+
+
+                                <div class="octf-col cta-col text-right no-padding">
+                                    <!-- Call To Action -->
+                                    <div class="octf-btn-cta">
+
+                                        <div class="octf-cart octf-cta-header">
+                                            <a class="cart-contents" href="#" title="View your shopping cart">
+                                                <i class="ot-flaticon-shopping-bag"></i>
+                                                <span class="count">10</span>
+                                            </a>
+
+                                            <div class="site-header-cart">
+                                                <div class="widget woocommerce widget_shopping_cart">
+                                                    <div class="widget_shopping_cart_content">
+                                                        <ul class="woocommerce-mini-cart cart_list product_list_widget ">
+                                                            <li class="woocommerce-mini-cart-item mini_cart_item">
+                                                                <a class="remove remove_from_cart_button" href="#">×</a>
+                                                                <a asp-action="Index" asp-controller="Product"><img src="~/images/img/blue vilvet.jpg" class="" alt="">Velvet Teal Blue</a>
+                                                                <span class="quantity">1 × <span class="amount"><bdi><span>$</span>195</bdi></span></span>
+                                                            </li>
+                                                            <li class="woocommerce-mini-cart-item mini_cart_item">
+                                                                <a class="remove remove_from_cart_button" href="#">×</a>
+                                                                <a asp-action="Index" asp-controller="Product"><img src="~/images/img/pouffe.jpg" class="" alt="">Natural Pouffe</a>
+                                                                <span class="quantity">1 × <span class="amount"><bdi><span>$</span>145</bdi></span></span>
+                                                            </li>
+                                                        </ul>
+
+                                                        <p class="woocommerce-mini-cart__total total">
+                                                            <strong>Subtotal:</strong> <span class="amount"><bdi><span>$</span>340</bdi></span>
+                                                        </p>
+                                                        <p class="woocommerce-mini-cart__buttons buttons">
+                                                            <a asp-action="Index" asp-controller="Cart" class="button wc-forward">View cart</a>
+                                                            <a asp-action="Index" asp-controller="Checkout" class="button checkout wc-forward">Checkout</a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="octf-search octf-cta-header">
+                                            <div class="toggle_search octf-cta-icons">
+                                                <i class="ot-flaticon-search"></i>
+                                            </div>
+                                            <!-- Form Search on Header -->
+                                            <div class="h-search-form-field collapse">
+                                                <div class="h-search-form-inner">
+                                                    <form role="search" method="get" class="search-form">
+                                                        <input type="search" class="search-field" placeholder="SEARCH..." value="" name="s">
+                                                        <button type="submit" class="search-submit"><i class="ot-flaticon-search"></i></button>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="octf-sidepanel octf-cta-header">
+                                            <div class="site-overlay panel-overlay"></div>
+                                            <div id="panel-btn" class="panel-btn octf-cta-icons">
+                                                <i class="ot-flaticon-menu"></i>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header_mobile">
+                <div class="container-fluid">
+                    <div class="octf-mainbar-row octf-row">
+                        <div class="octf-col">
+                            <div class="mlogo_wrapper clearfix">
+                                <div class="mobile_logo">
+                                    <a href="index.html">
+                                        <img src="~/images/logo.svg" alt="Theratio">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="octf-col justify-content-end">
+                            <div class="octf-search octf-cta-header">
+                                <div class="toggle_search octf-cta-icons">
+                                    <i class="ot-flaticon-search"></i>
+                                </div>
+                                <!-- Form Search on Header -->
+                                <div class="h-search-form-field collapse">
+                                    <div class="h-search-form-inner">
+                                        <form role="search" method="get" class="search-form">
+                                            <input type="search" class="search-field" placeholder="SEARCH..." value="" name="s">
+                                            <button type="submit" class="search-submit"><i class="ot-flaticon-search"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="octf-menu-mobile octf-cta-header">
+                                <div id="mmenu-toggle" class="mmenu-toggle">
+                                    <button><i class="ot-flaticon-menu"></i></button>
+                                </div>
+                                <div class="site-overlay mmenu-overlay"></div>
+                                <div id="mmenu-wrapper" class="mmenu-wrapper on-right">
+                                    <div class="mmenu-inner">
+                                        <a class="mmenu-close" href="#"><i class="ot-flaticon-right-arrow"></i></a>
+
+
+
+
+                                        <div class="octf-col menu-col no-padding">
+                                            <nav id="site-navigation" class="main-navigation">
+                                                <ul class="menu">
+                                                    <li>
+                                                        <a href="index.html">Home</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="about-us.html">About Us</a>
+                                                    </li>
+                                                </ul>
+                                                </li>
+                                                <li class="menu-item-has-children">
+                                                    <a href="#">Services</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="servcies-detail-1.html">Design & Planning</a></li>
+                                                    </ul>
+                                                </li>
+
+                                                <li class="menu-item-has-children">
+                                                    <a href="blog.html">Blog</a>
+                                                    <ul class="sub-menu">
+                                                        <li><a href="blog.html">Blog Listing</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="contact.html">Contacts</a>
+                                                </li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="side-panel" class="side-panel">
+            <a href="#" class="side-panel-close"><i class="ot-flaticon-close-1"></i></a>
+            <div class="side-panel-block">
+                <div class="side-panel-wrap">
+                    <div class="the-logo">
+                        <a href="index-html">
+                            <img src="~/images/logo-footer.svg" alt="Theratio">
+                        </a>
+                    </div>
+                    <div class="ot-heading ">
+                        <h2 class="main-heading">Contact Info</h2>
+                    </div>
+                    <div class="side-panel-cinfo">
+                        <ul class="panel-cinfo">
+                            <li class="panel-list-item">
+                                <span class="panel-list-icon"><i class="ot-flaticon-place"></i></span>
+                                <span class="panel-list-text">411 University St, Seattle, USA</span>
+                            </li>
+                            <li class="panel-list-item">
+                                <span class="panel-list-icon"><i class="ot-flaticon-mail"></i></span>
+                                <span class="panel-list-text">theratio_interior@mail.com</span>
+                            </li>
+                            <li class="panel-list-item">
+                                <span class="panel-list-icon"><i class="ot-flaticon-phone-call"></i></span>
+                                <span class="panel-list-text">+1 800 456 789 123</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="side-panel-social">
+                        <ul>
+                            <li><a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F" target="_self"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://x.com/?lang=en" target="_self"><i class="fab fa-facebook-f"></i></a></li>
+                            <li>
+                                <a href="https://az.linkedin.com/" target="_self"><i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                            <li><a href="https://www.instagram.com/" target="_self"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        @RenderBody()
+
+        <footer id="site-footer" class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mb-4 mb-xl-0">
+                        <div class="widget-footer">
+                            <img src="~/images/logo-footer.svg" class="footer-logo" alt="">
+                            <p>We provides a full range of interior design, architectural design.</p>
+                            <div class="footer-social list-social">
+                                <ul>
+                                    <li><a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F" target="_self"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="https://x.com/?lang=en" target="_self"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="https://az.linkedin.com/" target="_self"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="https://www.instagram.com/" target="_self"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mb-4 mb-xl-0">
+                        <div class="widget-footer">
+                            <h6>Contacts</h6>
+                            <ul class="footer-list">
+                                <li class="footer-list-item">
+                                    <span class="list-item-icon"><i class="ot-flaticon-place"></i></span>
+                                    <span class="list-item-text">411 University St, Seattle, USA</span>
+                                </li>
+                                <li class="footer-list-item">
+                                    <span class="list-item-icon"><i class="ot-flaticon-mail"></i></span>
+                                    <span class="list-item-text">theratio_interior@mail.com</span>
+                                </li>
+                                <li class="footer-list-item">
+                                    <span class="list-item-icon"><i class="ot-flaticon-phone-call"></i></span>
+                                    <span class="list-item-text">+1 800 456 789 123</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 mb-4 mb-md-0">
+                        <div class="widget-footer widget-contact">
+                            <h6>Latest Projects</h6>
+                            <ul>
+                                <li><a href="#">Stylish Family Appartment</a></li>
+                                <li><a href="#">Modern Villa in Belgium</a></li>
+                                <li><a href="#">Private House in Spain</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                        <div class="widget-footer footer-widget-subcribe">
+                            <h6>Subscribe</h6>
+                            <form class="mc4wp-form" method="post">
+                                <div class="mc4wp-form-fields">
+                                    <div class="subscribe-inner-form">
+                                        <input type="email" name="EMAIL" placeholder="YOUR EMAIL" required="">
+                                        <button type="submit" class="subscribe-btn-icon"><i class="ot-flaticon-send"></i></button>
+                                    </div>
+                                </div>
+                            </form>
+                            <p>Follow our newsletter to stay updated about agency.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer><!-- #site-footer -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-md-12 mb-4 mb-lg-0">
+                        <p>Copyright © 2020 Created by <a class="text-light" href="#">Safarova</a>. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-lg-5 col-md-12 align-self-center">
+                        <ul class="icon-list-items inline-items justify-content-lg-end">
+                            <li class="icon-list-item inline-item">
+                                <a href="#"><span class="icon-list-text">Terms of use</span></a>
+                            </li>
+                            <li class="icon-list-item inline-item">
+                                <a href="#"><span class="icon-list-text">Privacy Environmental Policy</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- #page -->
+    <a id="back-to-top" href="#" class="show"><i class="ot-flaticon-left-arrow"></i></a>
+    <!-- jQuery -->
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/mousewheel.min.js"></script>
+    <script src="~/js/lightgallery-all.min.js"></script>
+    <script src="~/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/js/jquery.isotope.min.js"></script>
+    <script src="~/js/owl.carousel.min.js"></script>
+    <script src="~/js/easypiechart.min.js"></script>
+    <script src="~/js/jquery.countdown.min.js"></script>
+    <script src="~/js/scripts.js"></script>
+    <script src="~/js/royal_preloader.min.js"></script>
+    <!-- REVOLUTION JS FILES -->
+
+    <script src="~/plugins/revolution/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="~/plugins/revolution/revolution/js/jquery.themepunch.revolution.min.js"></script>
+
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+    <script src="~/plugins/revolution/revolution/js/extensions/revolution-plugin.js"></script>
+
+    <!-- REVOLUTION SLIDER SCRIPT FILES -->
+    <script src="~/js/rev-script-1.js"></script>
+    <script>
+        window.jQuery = window.$ = jQuery;
+        (function ($) {
+            "use strict";
+            //Preloader
+            Royal_Preloader.config({
+                mode: 'progress',
+                background: '#1a1a1a',
+            });
+        })(jQuery);
+    </script>
+</body>
+
+
+
+</html>

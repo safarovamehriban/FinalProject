@@ -1,0 +1,17 @@
+C:\Users\Efsane\Desktop\New\new\FinalProject\Business\bin\Debug\net8.0\Business.deps.json
+C:\Users\Efsane\Desktop\New\new\FinalProject\Business\bin\Debug\net8.0\Business.dll
+C:\Users\Efsane\Desktop\New\new\FinalProject\Business\bin\Debug\net8.0\Business.pdb
+C:\Users\Efsane\Desktop\New\new\FinalProject\Business\bin\Debug\net8.0\Core.dll
+C:\Users\Efsane\Desktop\New\new\FinalProject\Business\bin\Debug\net8.0\Data.dll
+C:\Users\Efsane\Desktop\New\new\FinalProject\Business\bin\Debug\net8.0\Data.pdb
+C:\Users\Efsane\Desktop\New\new\FinalProject\Business\bin\Debug\net8.0\Core.pdb
+C:\Users\Efsane\Desktop\New\new\FinalProject\Business\obj\Debug\net8.0\Business.csproj.AssemblyReference.cache
+C:\Users\Efsane\Desktop\New\new\FinalProject\Business\obj\Debug\net8.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Efsane\Desktop\New\new\FinalProject\Business\obj\Debug\net8.0\Business.AssemblyInfoInputs.cache
+C:\Users\Efsane\Desktop\New\new\FinalProject\Business\obj\Debug\net8.0\Business.AssemblyInfo.cs
+C:\Users\Efsane\Desktop\New\new\FinalProject\Business\obj\Debug\net8.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\Efsane\Desktop\New\new\FinalProject\Business\obj\Debug\net8.0\Business.csproj.Up2Date
+C:\Users\Efsane\Desktop\New\new\FinalProject\Business\obj\Debug\net8.0\Business.dll
+C:\Users\Efsane\Desktop\New\new\FinalProject\Business\obj\Debug\net8.0\refint\Business.dll
+C:\Users\Efsane\Desktop\New\new\FinalProject\Business\obj\Debug\net8.0\Business.pdb
+C:\Users\Efsane\Desktop\New\new\FinalProject\Business\obj\Debug\net8.0\ref\Business.dll
